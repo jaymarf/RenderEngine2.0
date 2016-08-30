@@ -161,12 +161,16 @@
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jaymarF\Source\Repos\RenderEngine2.0\RenderEngine2\packages\glm.0.9.7.1\build\native\include;C:\Users\jaymarF\Source\Repos\RenderEngine2.0\RenderEngine2\packages\glew.1.9.0.1\build\native\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jaymarF\Source\Repos\RenderEngine2.0\RenderEngine2\packages\glm.0.9.7.1\build\native\include;C:\Users\jaymarF\Source\Repos\RenderEngine2.0\RenderEngine2\packages\glew.1.9.0.1\build\native\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
+    <ClCompile Include="Shader.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="res\basicShader.fs" />
+    <None Include="res\basicShader.vs" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Display.h" />
+    <ClInclude Include="Shader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
